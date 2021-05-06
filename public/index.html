@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venky's </title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        
+        table {
+          width: 100%;
+        }
+        </style>
+</head>
+<body style="background-color: aqua;">
+    <center>
+      <h1> <i> Welcome </i> </h1>
+    </center> <br><br><br>
+
+    <h3><i>Here are the details of this POC </i></h3>
+        
+        <table style="width:100%">
+            <tr>
+              <th>EndPoint</th>
+              <th>Description</th> 
+              <th>url</th>
+            </tr>
+            <tr>
+              <td>addABook</td>
+              <td>To add a BOOK into Database,  copy and paste this url  in the browser and enter the book details</td>
+              <td><p>http://localhost:3000/addBook?bName=&bAuthor=&bDate=&bPrice=&bQuantity= </p></td>
+            </tr>
+            <tr>
+              <td>getAllBooks</td>
+              <td>To display all the books at a time</td>
+              <td>Hit this url <a href="http://localhost:3000/getAllBooks">click Here</a></td>
+            </tr>
+            <tr>
+              <td>getBookById</td>
+              <td>To get a BOOK by BOOK Id. Copy and Paste this url,  In the URL enter the book Id.</td>
+              <td>http://localhost:3000/getOneBook?id=</td>
+            </tr>
+
+            <tr>
+                <td>updateBookQuantity</td>
+                <td>To update  a BOOK quantity by BOOK Id. Copy and Paste this url,  In the URL enter the book Id and Quantity,</td>
+                <td> http://localhost:3000/updateBookQuantity?id=&quantity= </td>
+              </tr>
+
+              <tr>
+                <td>delBookById</td>
+                <td>To Delete  a BOOK  by BOOK Id. Copy and Paste this url,  In the URL enter the book ID</td>
+                <td> http://localhost:3000/delBookById?id=</td>
+              </tr>
+
+              
+              <tr>
+                <td>getBookQunByAsc</td>
+                <td>To display  all the  book details in the form of  Ascending Order of Quantity . Hit this Url</td>
+                <td> <a href="http://localhost:3000/getBookQunByAsc"> click Here</a></td>
+              </tr>
+
+              <tr>
+                <td>getBookNameByAsc</td>
+                <td>To display  all the  book details in the form of  Ascending Order of Book Name . Hit this Url</td>
+                <td> <a href="http://localhost:3000/getBookNameByAsc"> click Here</a></td>
+              </tr>
+
+
+          </table>
+
+
+    
+</body>
+</html>
